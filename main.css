@@ -1,0 +1,280 @@
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: rgb(228, 228, 228);
+}
+
+.bg {
+  background-image: url(/images/confused-travolta.gif);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tempe-bg {
+  background-color: #FAFBED;
+}
+
+.playground-bg {
+  background-color: #efdabd;
+}
+
+/*
+.playground-fill {
+  fill: #efdabd !important;
+}
+*/
+
+.mymax-width {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'IBM Plex Sans', san-serif;
+  font-weight: 400;
+}
+
+.display-1, .display-2, .display-3, .display-4 {
+  font-family: 'IBM Plex Sans', san-serif;
+  font-weight: 400;
+}
+
+.plex-mono {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  letter-spacing: .05rem;
+}
+
+.plex-mono-ital {
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.plex-sans {
+  font-family: 'IBM Plex Sans', san-serif;
+  font-weight: 400;
+}
+
+.plex-sans-bold {
+  font-family: 'IBM Plex Sans', san-serif;
+  font-weight: 700;
+}
+
+.syncopate {
+  font-family: 'Syncopate', san-serif;
+  font-weight: 700 !important;
+}
+
+.navbar-brand:hover {
+  opacity: 0.5;
+  color: #007bff;
+  transition: .35s ease-in-out;
+}
+
+.mynav {
+  background-color: #E4E4E4 !important;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.mynavdark {
+  background-color: #343A40 !important;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.mynav-tempe {
+  background-color: #FAFBED !important;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.mynav-playground {
+  background-color: #efdabd !important;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.process-bg {
+  background-color: #fff;
+}
+
+.mymasonryborder {
+  border-radius: 0em;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.myrow {
+  align-items: center;
+}
+
+.myicon {
+  align-items: center;
+  justify-content: center;
+}
+
+.mybox {
+  min-height: 200px;
+  margin: 20px 10px;
+  padding: 20px;
+}
+
+.topbtn {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 1000 !important;
+}
+
+.mybox1 {
+  background-color: fuchsia;
+  min-height: 100px;
+  margin: 20px 10px;
+  padding: 20px;
+}
+
+.mybtn {
+  border-radius: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/*
+a:hover {
+  opacity: 0.5;
+}
+*/
+
+.project-card:hover {
+  opacity: 0.75;
+  color: #007bff;
+  transition: .35s ease-in-out;
+}
+
+.card-text {
+  font-weight: 700;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+
+.shake:hover { 
+  animation: effect 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.card-columns .card {
+  margin-bottom: 0.75rem;
+}
+
+.carousel-caption {
+  position: relative;
+  top: 0;
+  left: 0;
+  color: black;
+  text-align: left;
+  padding: 20px;
+}
+
+section {
+  padding: 2rem;
+}
+
+.bg-uber {
+  background-color: #343A40;
+}
+
+.bg-sossego {
+  background-color: #f2c6a9;
+}
+
+@media (min-width: 767px) {
+  .card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+  }
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.carousel-dark .carousel-control-prev-icon,
+.carousel-dark .carousel-control-next-icon {
+  filter: invert(1) grayscale(100);
+}
+.carousel-dark .carousel-indicators li {
+  background-color: #000;
+}
+.carousel-dark .carousel-caption {
+  color: #000;
+}
+
+footer {
+  line-height: 1.25rem !important;
+}
+
+.error-template {padding: 40px 15px;text-align: center;}
+
+.error-actions {margin-top:15px;margin-bottom:15px;}
+
+.error-actions .btn { margin-right:10px; }
+
+/*
+@media (min-width: 992px) {
+  .card-columns {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+  }
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+}
+*/
+
+@keyframes effect { 
+  0% { 
+      transform: translateX(0px) rotate(0deg); 
+  } 
+
+  20% { 
+      transform: translateX(-4px) rotate(-4deg); 
+  } 
+
+  40% { 
+      transform: translateX(-2px) rotate(-2deg); 
+  } 
+
+  60% { 
+      transform: translateX(4px) rotate(4deg); 
+  } 
+
+  80% { 
+      transform: translateX(2px) rotate(2deg); 
+  } 
+
+  100% { 
+      transform: translateX(0px) rotate(0deg); 
+  }
+}
